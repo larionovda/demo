@@ -1,0 +1,1 @@
+INSERT INTO products(id, name, price, inventory) VALUES (4, 'name4', 15, 3);
