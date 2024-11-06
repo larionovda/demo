@@ -15144,3 +15144,30 @@ Caused by: org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Data
 2024-10-30 18:36:48,403 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650] -- Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-10-30 18:36:48,405 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] -- HikariPool-1 - Shutdown initiated...
 2024-10-30 18:36:48,406 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] -- HikariPool-1 - Shutdown completed.
+2024-11-06 19:20:20,518 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [SpringBootTestContextBootstrapper.java:248] -- Found @SpringBootConfiguration com.example.logging.SpringBootLogging for test class com.example.logging.service.TutorialServiceTest
+2024-11-06 19:20:20,670 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21] -- HV000001: Hibernate Validator 8.0.0.Final
+2024-11-06 19:20:20,697 INFO [main] c.e.l.s.TutorialServiceTest [StartupInfoLogger.java:51] -- Starting TutorialServiceTest using Java 20 with PID 1881 (started by dmitrijlarionov in /Users/dmitrijlarionov/IdeaProjects/demo/demo_one)
+2024-11-06 19:20:20,697 INFO [main] c.e.l.s.TutorialServiceTest [SpringApplication.java:640] -- The following 1 profile is active: "dev"
+2024-11-06 19:20:20,977 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] -- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-06 19:20:21,004 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] -- Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+2024-11-06 19:20:21,208 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] -- HikariPool-1 - Starting...
+2024-11-06 19:20:21,327 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565] -- HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35adf623
+2024-11-06 19:20:21,328 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] -- HikariPool-1 - Start completed.
+2024-11-06 19:20:21,544 INFO [main] l.changelog [JavaLogger.java:37] -- Reading from public.databasechangelog
+2024-11-06 19:20:21,548 INFO [main] l.executor [JavaLogger.java:37] -- Changelog query completed.
+2024-11-06 19:20:21,602 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] -- HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-06 19:20:21,632 INFO [main] o.h.Version [Version.java:44] -- HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-11-06 19:20:21,633 INFO [main] o.h.c.Environment [Environment.java:191] -- HHH000406: Using bytecode reflection optimizer
+2024-11-06 19:20:21,694 INFO [main] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] -- HHH000021: Bytecode provider name : bytebuddy
+2024-11-06 19:20:21,751 INFO [main] o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] -- No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-06 19:20:21,862 INFO [main] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] -- HHH000021: Bytecode provider name : bytebuddy
+2024-11-06 19:20:22,154 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:51] -- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-06 19:20:22,188 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] -- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06 19:20:22,442 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:231] -- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-06 19:20:22,593 INFO [main] o.s.b.t.m.w.SpringBootMockServletContext [MockServletContext.java:435] -- Initializing Spring TestDispatcherServlet ''
+2024-11-06 19:20:22,594 INFO [main] o.s.t.w.s.TestDispatcherServlet [FrameworkServlet.java:532] -- Initializing Servlet ''
+2024-11-06 19:20:22,595 INFO [main] o.s.t.w.s.TestDispatcherServlet [FrameworkServlet.java:554] -- Completed initialization in 0 ms
+2024-11-06 19:20:22,605 INFO [main] c.e.l.s.TutorialServiceTest [StartupInfoLogger.java:57] -- Started TutorialServiceTest in 2.019 seconds (process running for 2.573)
+2024-11-06 19:20:23,024 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650] -- Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-06 19:20:23,025 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] -- HikariPool-1 - Shutdown initiated...
+2024-11-06 19:20:23,027 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] -- HikariPool-1 - Shutdown completed.
